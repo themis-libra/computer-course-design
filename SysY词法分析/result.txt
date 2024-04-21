@@ -1,0 +1,44 @@
+< int >
+< ID , "main" >
+< Delimiter , ( >
+< Delimiter , ) >
+< Delimiter , { >
+< Comment , // >
+< Comment , /*..*/ >
+< ID , "a" >
+< OP , = >
+< NUM , 5 >
+< Delimiter , ; >
+< int >
+< ID , "b" >
+< Delimiter , [ >
+< NUM , 5 >
+< Delimiter , ] >
+< Delimiter , ; >
+< ID , "b" >
+< Delimiter , [ >
+< NUM , 1 >
+< Delimiter , ] >
+< OP , = >
+< NUM , 5 >
+< Delimiter , ; >
+< ID , "c" >
+< OP , = >
+< NUM , 79 >
+< Delimiter , ; >
+< Comment , // >
+< ID , "d" >
+< OP , = >
+Error [unrecognized] at line: [13]: 0x4p error
+< Delimiter , ; >
+< ID , "e" >
+< OP , = >
+< NUM , 9 >
+< Delimiter , ; >
+< Comment , // >
+< ID , "f" >
+< OP , = >
+Error [unrecognized] at line: [15]: 01a error
+< Delimiter , ; >
+Error [unmatched] at line: [20]: without '*/' to match '/*'
+< Comment , /*..*/ >
